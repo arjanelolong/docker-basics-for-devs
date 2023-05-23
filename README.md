@@ -18,7 +18,9 @@ Ubuntu: [https://docs.docker.com/desktop/install/ubuntu/](https://docs.docker.co
 [Docker Hub](https://hub.docker.com/search?image_filter=official&q=) has list of all public docker images.
 
 ### Dockerfile
+https://github.com/arjanelolong/docker-basics-for-devs/blob/main/Dockerfile
 
 ## Docker Containers
 
 ### Docker Compose
+https://github.com/arjanelolong/docker-basics-for-devs/blob/main/docker-compose.yml
