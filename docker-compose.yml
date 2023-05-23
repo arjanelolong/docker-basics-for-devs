@@ -1,7 +1,25 @@
 version: '3.8'
 
 services:
-  docker-basics-for-devs:
+  frontend:
+    container_name: nextjs
     image: docker-basics-for-devs:1
     ports:
       - '3000:3000'
+  
+  backend:
+    container_name: nestjs
+    image: sachirjn/backend-app:latest
+    ports:
+      - '3001:3000'
+    depends_on:
+      - database
+    environment:
+      - MONGODB_URI=mongodb://database:27017/
+
+  database:
+    container_name: mongodb
+    image: mongo:5.0
+    ports:
+      - 27017:27017
+
