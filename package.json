@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "docker:build": "docker build -t docker-basics-for-devs:1 . --build-arg siteName='Docker Tutorial (Beginner)'",
+    "docker:run": "docker run -d -p 3000:3000 docker-basics-for-devs:1",
+    "docker:compose:up": "docker compose up -d",
+    "docker:compose:down": "docker compose down"
   },
   "dependencies": {
     "@types/node": "20.2.3",
