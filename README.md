@@ -24,3 +24,5 @@ https://github.com/arjanelolong/docker-basics-for-devs/blob/main/Dockerfile
 
 ### Docker Compose
 https://github.com/arjanelolong/docker-basics-for-devs/blob/main/docker-compose.yml
+
+### Setting Environment Variables in Nextjs
